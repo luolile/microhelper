@@ -20,4 +20,11 @@ public class AdminUserInfo extends SysUser {
 	public void setMenuRights(String menuRights) {
 		this.menuRights = menuRights;
 	}
+	
+	public void grepPropertyValues(AdminUserInfo self, SysUser goal){
+		self.setUserId(goal.getUserId());
+		self.setUserName(goal.getUserName());
+		self.setUserNo(goal.getUserNo());
+		self.setDeptId(goal.getDeptId());
+	}
 }

@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.microhelper.sysuser.persistent.mapper.SysUserMapper;
+import com.microhelper.sysuser.persistent.mapper.SysUserMoreMapper;
 import com.microhelper.sysuser.persistent.model.SysUser;
 
 
@@ -11,8 +12,8 @@ import com.microhelper.sysuser.persistent.model.SysUser;
 @Service("sysUserService")
 public class SysUserServiceImpl implements SysUserService{
 
-	/*@Autowired
-	private SysUserMoreMapper sysUserMoreMapper;*/
+	@Autowired
+	private SysUserMoreMapper sysUserMoreMapper;
 	
 	@Autowired
 	private SysUserMapper sysUserMapper;
@@ -22,8 +23,7 @@ public class SysUserServiceImpl implements SysUserService{
 	 */
 	@Override
 	public SysUser selectByLoginName(String loginName) {
-		return sysUserMapper.selectByPrimaryKey(new Integer(1));
-		//return sysUserMoreMapper.selectByLoginName(loginName);
+		return sysUserMoreMapper.selectByLoginName(loginName);
 	}
 	
 }
