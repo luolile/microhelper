@@ -43,7 +43,7 @@ public class LoginController {
         ModelAndView returnMV = new ModelAndView();
         AdminUserInfo adminUserInfo = new AdminUserInfo();
         logger.debug("判断用户名密码是否为空");
-        if (StringUtils.isNotEmpty(loginName) || StringUtils.isNotEmpty(password)) {
+        if (StringUtils.isNotEmpty(loginName) && StringUtils.isNotEmpty(password)) {
         	logger.debug("查询登录的用户");
             SysUser userInfo = sysUserService.selectByLoginName(loginName);
             if(userInfo== null 
