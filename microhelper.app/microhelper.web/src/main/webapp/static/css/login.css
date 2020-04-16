@@ -1,0 +1,279 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color:#3c8dbc;
+	font-size: 12px;
+}
+
+body, input {
+	font-family: "Microsoft YaHei", "瀹嬩綋", arial, serif;
+}
+
+.container {
+	padding:20px;
+	
+}
+
+.logo {
+	background: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	width: 940px;
+	text-align: right;
+	line-height: 90px;
+	/*background-image: url(../images/logo_black.png);*/
+}
+
+.content {
+	width: 100%;
+	/* height: 580px; */
+	overflow: hidden;
+}
+h3.title{
+	font-size:20px;
+	text-align:center;
+	color:white;
+	padding-top:30px;
+	font-family:"华文细黑"
+}
+h4.title{
+	font-size:15px;
+	text-align:center;
+	color:white;
+	padding-top:10px;
+	font-family:"华文细黑"
+}
+.login {
+	width: 347px;
+	margin:0 auto;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.login .myimage {
+	width: 100px;
+	height: 100px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.login .myimage img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+}
+
+#err {
+	height: 30px;
+	color: white;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+#err li {
+	list-style: none;
+}
+
+.login .myinput {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#usercode{
+	border-radius: 5px 5px 0 0;
+}
+.myinput input {
+	/* width: 100%; */
+	/*  width: calc(100% - 20px); */ 
+     /* padding-left: 10px;
+    padding-right: 10px; */ 
+	font-size: 14px;
+	line-height: 40px;
+	font-weight: bold;
+	height: 40px;
+	/* margin-top: 10px; */
+	border:none;
+	border-top:1px solid #b9babb;
+	border-radius: 0 0 5px 5px;
+}
+
+#userinfo input {
+	width: 95%;
+    padding-left: 5%;
+}
+
+#vcodediv {
+	text-align: left;
+	display: none;
+}
+#btn_submit{
+	border-radius:5px;
+}
+/* #postform{
+	padding-left:10px;
+	padding-right:10px;
+} */
+#vcodediv input {
+	width: 100px;
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+
+#vcodediv img {
+	height: 38px;
+	width: 70px;
+	cursor: pointer;
+}
+
+#rdiv {
+	text-align: left;
+}
+
+#rdiv input {
+	height: auto;
+}
+
+#rdiv label {
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+#postform input {
+ 	width: 100%; 
+	background-color: #4489ca;
+	color: white;
+	cursor: pointer;
+}
+
+#link {
+	margin-top: 10px;
+	color: #4489ca;
+}
+
+a, a:hover, a:visited {
+	text-decoration: none;
+	color: #4489ca;
+	font-size: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#slides {
+	display: none;
+}
+
+.bottom {
+	margin-top: 10px;
+	padding-right: 0;
+	text-align: center;
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottom a {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#bgrepeat {
+	background-position: 0 center;
+	background-repeat: repeat-x;
+}
+/*杞暘鐢ㄥ埌鐨勬晥鏋�*/
+#slides * {
+	margin: 0;
+	padding: 0;
+}
+
+.LunBo_BG01 {
+	background-image: url(../images/bgpicture1.png);
+}
+
+.LunBo_BG02 {
+	background-image: url(../images/bgpicture2.png);
+}
+
+#slides .KMSPrefix_slides_image_box {
+	width: 100%;
+	height: 600px;
+	position: relative;
+	z-index: 1;
+}
+
+#slides .KMSPrefix_slides_image_box .KMSPrefix_slides_image_item {
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	overflow: hidden;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+#slides .KMSPrefix_slides_image_box .KMSPrefix_slides_image_item a.KMSPrefix_slides_coverlink
+	{
+	width: 100%;
+	height: 600px;
+	display: block;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	text-indent: 0;
+	outline: none;
+}
+
+#slides .KMSPrefix_slides_button {
+	right: 10px;
+	bottom: 50px;
+	left: 25%;;
+	position: absolute;
+	list-style: none;
+	z-index: 2;
+	overflow: hidden;
+	_zoom: 1;
+}
+
+#slides .KMSPrefix_slides_button li {
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	font-size: 10px;
+	background: #4489ca;
+	border: 2px solid #4489ca;
+	color: #666666;
+	text-align: center;
+	margin-right: 8px;
+	font-family: Verdana;
+	float: left;
+	border-radius: 14px;;
+	cursor: pointer;
+	-webkit-text-size-adjust: none;
+}
+
+#slides .KMSPrefix_slides_button li.KMSPrefix_slides_focus {
+	background: white;
+	border: 2px solid #d4d4d4;
+	color: #000000;
+	cursor: default;
+}
+
+#userinfo input {
+	color: #c1c1c1;
+}
+
+#userinfo input:focus {
+	color: #000;
+	box-shadow: 0 0 5px #000;
+}
+
+.displayNone {
+	display: none;
+}

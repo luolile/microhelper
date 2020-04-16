@@ -1,0 +1,76 @@
+<!-- Bootstrap 3.3.6 -->        
+        <!-- CSS -->
+        <link href="${contextPath}/static/js/backstage/css/bootstrap.min.css" rel="stylesheet">
+        <link href="${contextPath}/static/js/backstage/css/animate.min.css" rel="stylesheet">
+        <link href="${contextPath}/static/js/backstage/css/font-awesome.min.css" rel="stylesheet">
+        <link href="${contextPath}/static/js/backstage/css/form.css" rel="stylesheet">
+        <link href="${contextPath}/static/js/backstage/css/calendar.css" rel="stylesheet">
+        <link href="${contextPath}/static/js/backstage/css/style.css" rel="stylesheet">
+        <link href="${contextPath}/static/js/backstage/css/icons.css" rel="stylesheet">
+        <link href="${contextPath}/static/js/backstage/css/generics.css" rel="stylesheet"> 
+        <link href="${contextPath}/static/js/backstage/css/media-player.css" rel="stylesheet">
+        <link href="${contextPath}/static/css/mystyle.css" rel="stylesheet">
+        <link rel="stylesheet" href="${contextPath}/static/css/area.css">
+<!-- Javascript Libraries -->
+         <!-- jQuery -->
+        <script src="${contextPath}/static/js/backstage/js/jquery.min.js"></script> <!-- jQuery Library -->
+        <script src="${contextPath}/static/js/backstage/js/jquery-ui.min.js"></script> <!-- jQuery UI -->
+        <script src="${contextPath}/static/js/backstage/js/jquery.easing.1.3.js"></script> <!-- jQuery Easing - Requirred for Lightbox + Pie Charts-->
+
+        <!-- Bootstrap -->
+        <script src="${contextPath}/static/js/backstage/js/bootstrap.min.js"></script>
+
+        <!-- angular -->
+       <script src="${contextPath}/static/js/angular/angular.min.js"></script>
+       <script src="${contextPath}/static/js/angular/angular-route.js"></script>
+       <script src="${contextPath}/static/js/angular/angular-file-upload.min.js"></script>
+       
+        <!-- Charts -->
+        <script src="${contextPath}/static/js/backstage/js/charts/jquery.flot.js"></script> <!-- Flot Main -->
+        <script src="${contextPath}/static/js/backstage/js/charts/jquery.flot.time.js"></script> <!-- Flot sub -->
+        <script src="${contextPath}/static/js/backstage/js/charts/jquery.flot.animator.min.js"></script> <!-- Flot sub -->
+        <script src="${contextPath}/static/js/backstage/js/charts/jquery.flot.resize.min.js"></script> <!-- Flot sub - for repaint when resizing the screen -->
+        <script src="${contextPath}/static/js/backstage/js/charts/jquery.flot.orderBar.js"></script> <!-- Flot Bar chart -->
+        <script src="${contextPath}/static/js/backstage/js/charts/jquery.flot.pie.min.js"></script> <!-- Flot Pie chart -->
+        
+        <script src="${contextPath}/static/js/backstage/js/sparkline.min.js"></script> <!-- Sparkline - Tiny charts -->
+        <script src="${contextPath}/static/js/backstage/js/easypiechart.js"></script> <!-- EasyPieChart - Animated Pie Charts -->
+        <script src="${contextPath}/static/js/backstage/js/charts.js"></script> <!-- All the above chart related functions -->
+
+
+        <!-- Map -->
+        <script src="${contextPath}/static/js/backstage/js/maps/jvectormap.min.js"></script> <!-- jVectorMap main library -->
+        <script src="${contextPath}/static/js/backstage/js/maps/usa.js"></script> <!-- USA Map for jVectorMap -->
+        <script src="${contextPath}/static/js/backstage/js/maps/world.js"></script> <!-- USA Map for jVectorMap -->
+
+        <!--  Form Related -->
+        <script src="${contextPath}/static/js/backstage/js/icheck.js"></script> <!-- Custom Checkbox + Radio -->
+
+        <!-- UX -->
+        <script src="${contextPath}/static/js/backstage/js/scroll.min.js"></script> <!-- Custom Scrollbar -->
+
+        <!-- Other -->
+        <script src="${contextPath}/static/js/backstage/js/calendar.min.js"></script> <!-- Calendar -->
+        <script src="${contextPath}/static/js/backstage/js/feeds.min.js"></script> <!-- News Feeds -->
+
+        <!--  Form Related -->
+        <script src="${contextPath}/static/js/backstage/js/validation/validate.min.js"></script> <!-- jQuery Form Validation Library -->
+        <script src="${contextPath}/static/js/backstage/js/validation/validationEngine.min.js"></script> <!-- jQuery Form Validation Library - requirred with above js -->
+        <script src="${contextPath}/static/js/backstage/js/select.min.js"></script>
+        <script src="${contextPath}/static/js/backstage/js/chosen.min.js"></script> <!-- Custom Multi Select -->
+        <script src="${contextPath}/static/js/backstage/js/datetimepicker.min.js"></script> <!-- Date & Time Picker -->
+        <script src="${contextPath}/static/js/backstage/js/colorpicker.min.js"></script> <!-- Color Picker -->
+        <script src="${contextPath}/static/js/backstage/js/icheck.js"></script> <!-- Custom Checkbox + Radio -->
+        <script src="${contextPath}/static/js/backstage/js/autosize.min.js"></script> <!-- Textare autosize -->
+        <script src="${contextPath}/static/js/backstage/js/toggler.min.js"></script> <!-- Toggler -->
+        <script src="${contextPath}/static/js/backstage/js/input-mask.min.js"></script> <!-- Input Mask -->
+        <script src="${contextPath}/static/js/backstage/js/spinner.min.js"></script> <!-- Spinner -->
+        <script src="${contextPath}/static/js/backstage/js/slider.min.js"></script> <!-- Input Slider -->
+        <script src="${contextPath}/static/js/backstage/js/fileupload.min.js"></script> <!-- File Upload -->
+        <!-- Text Editor -->
+        <script src="${contextPath}/static/js/backstage/js/editor2.min.js"></script> <!-- WYSIWYG Editor -->
+        <script src="${contextPath}/static/js/backstage/js/markdown.min.js"></script> <!-- Markdown Editor -->      
+        <!-- Javascript Libraries -->
+        <script src="${contextPath}/static/js/comn/common.js"></script> <!-- Markdown Editor -->
+        <!-- All JS functions -->
+       

@@ -1,0 +1,17 @@
+com\microhelper\sysuser\persistent\mapper\SysFunctionPageMapper.class
+com\microhelper\sysuser\persistent\mapper\SysRoleFunctionMapper.class
+com\microhelper\sysuser\persistent\model\SysFunctionPage.class
+com\microhelper\sysuser\persistent\model\SysUser.class
+com\microhelper\sysuser\persistent\mapper\SysUserRoleMapper.class
+com\microhelper\sysuser\service\SysUserService.class
+com\microhelper\sysuser\persistent\model\SysRoleFunction.class
+com\microhelper\sysuser\persistent\mapper\SysUserMapper.class
+com\microhelper\sysuser\bean\AdminUserInfo.class
+com\microhelper\sysuser\service\SysUserServiceImpl.class
+com\microhelper\sysuser\persistent\mapper\SysDeptMapper.class
+com\microhelper\sysuser\persistent\model\SysUserRole.class
+com\microhelper\sysuser\persistent\model\SysUserDept.class
+com\microhelper\sysuser\persistent\model\SysDept.class
+com\microhelper\sysuser\persistent\mapper\SysUserDeptMapper.class
+com\microhelper\sysuser\persistent\model\SysRole.class
+com\microhelper\sysuser\persistent\mapper\SysRoleMapper.class

@@ -1,0 +1,87 @@
+/* 慌宥CSS */
+@charset "utf-8";
+.no_title .ui-dialog-titlebar{display:none}
+.col-md-4 .form-control{
+	display:inline-block;
+	width:60%;
+	padding:0;
+}
+.col-md-8 .form-control{
+	display:inline-block;
+	width:calc(100% - 90px);
+	padding:0;
+}
+.col-md-4 .control-label,.col-md-12 .control-label,.col-md-8 .control-label{
+	display:inline-block;
+	width:80px;
+	padding-right:10px;
+	vertical-align:top;
+}
+.pad-m{
+	padding:10px;
+}
+.pad-s{
+	padding:5px;
+}
+.col-md-4.col-lg-3{
+	 height:50px; 
+}
+nput::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0; 
+}
+.rContent{
+	display:inline-block;
+	width:calc(100% - 90px);
+}
+input[type="radio"]{
+	white-space:10px;
+}
+#btnCancel{
+	margin-left:30px;
+}
+.parsley-errors-list {
+    display: inline;
+    position: absolute;
+    top: 42px;
+    left: 108px;
+}
+.no-margin{
+	margin:0!important;
+}
+#venuesDescrib .parsley-errors-list{
+	top: 86px;
+    left: 30px;
+}
+input:placehold{
+	
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+　　color:#ccc!important;
+　　}
+　　:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+　　color:#ccc;
+　　}
+　　::-moz-placeholder { /* Mozilla Firefox 19+ */
+　　color:#ccc;
+　　}
+　　:-ms-input-placeholder { /* Internet Explorer 10+ */
+　　color:#ccc;
+　　}
+
+　input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+　　color: #666!important;
+　　}
+　　input:-moz-placeholder, textarea:-moz-placeholder {
+　　color:#666!important;
+　　}
+　　input::-moz-placeholder, textarea::-moz-placeholder {
+　　color:#666!important;
+　　}
+　　input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+　　color:#666!important;
+　　}
+.pad{
+	padding:20px
+}
