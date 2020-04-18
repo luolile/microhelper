@@ -1,9 +1,0 @@
-/* 分页CSS */
-@charset "utf-8";
-.page_menulist_show span {padding: 0px 5px 0px 5px;margin: 0;cursor: pointer;}
-.PAGE_HOVER {border: 1px solid #f00;}
-.PAGE_INDEX {
-  color: #2a6496;
-  background-color: #eee;
-  border-color: #ddd;
-}

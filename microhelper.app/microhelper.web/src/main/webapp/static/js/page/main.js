@@ -1,77 +1,14 @@
 var app = angular.module('Home', ['ngRoute']);
-// 金额处理
-app.filter('myFormatSalary', function() {
-	salaryCn = function(value){
-    	//var value = $scope.applicant.salary;
-    	// 1000000000(亿)
-//    	var unity = 100000000;
-//    	var yv = salaryCnUnit(value, unity);
-    	
-//    	// 10000(万)
-//    	value = value%unity;
-//    	var unitw = 10000;
-//    	var wv = salaryCnUnit(value, unitw);
-    	// 1000(千)
-//    	value = value%unitw;
-    	var unitq = 1000;
-    	var qv = salaryCnUnit(value, unitq);
-//    	// 100(百)
-//    	value = value%unitq;
-//    	var unitb = 100;
-//    	var bv = salaryCnUnit(value, unitb);
-//    	
-//    	// 10(十)
-//    	value = value%unitb;
-//    	var units = 10;
-//    	var sv = salaryCnUnit(value, units);
-//    	
-//    	// 1(个)
-//    	value = value%units;
-//    	var unitg = 1;
-//    	var gv = salaryCnUnit(value, unitg);
-    	
-    	var result = "";
-//    	if (yv > 0) {
-//    		result += yv + "亿";
-//    	}
-//    	if (wv > 0) {
-//    		result += wv + "万"; 
-//    	}
-    	if (qv > 0) {
-    		result += qv + "k"; 
-    	}
-//    	if (bv > 0) {
-//    		result += bv + "百"; 
-//    	}
-//    	if (sv > 0) {
-//    		result += sv + "十"; 
-//    	}
-//    	if (gv > 0) {
-//    		result += gv; 
-//    	}
-    	return result;
-    }
-    
-    salaryCnUnit = function(value, unit){
-    	if (value == null || value == undefined) {
-    		return 0;
-    	}
-    	if (value >= unit) {
-    		return value/unit;
-    	}
-    	return 0;
-    }
-    
-    return function(x) {
-        return salaryCn(x);
-    };
-});
 // 路由器
 app.config(function ($routeProvider) {
         $routeProvider
                 .when('/tips', {
                     templateUrl: contextPath+'/pages/tips.jsp'
                 })
+                .when('/deptList', {
+                	// 组织一览
+                    templateUrl: contextPath +'/pages/sysuser/dept/deptList.jsp'
+                 })
                 //kwoks -- 客户 客户公司
                 .when('/customList', {
                 	// 客户
@@ -101,10 +38,6 @@ app.config(function ($routeProvider) {
                 	 // 标签编辑
                     templateUrl: contextPath +'/pages/taglib/companyDetail.jsp'
                 })
-                .when('/organizationList', {
-                	// 组织一览
-                    templateUrl: contextPath +'/pages/organization/organizationList.jsp'
-                 })
                  .when('/organizationAdd', {
                 	// 组织添加
                     templateUrl: contextPath +'/pages/organization/organizationAdd.jsp'
@@ -198,8 +131,75 @@ app.config(function ($routeProvider) {
                 	// 默认跳转页
                     redirectTo: '/tips'
                  });
-    });
+});
 
+//金额处理
+app.filter('myFormatSalary', function() {
+	salaryCn = function(value){
+    	//var value = $scope.applicant.salary;
+    	// 1000000000(亿)
+//    	var unity = 100000000;
+//    	var yv = salaryCnUnit(value, unity);
+    	
+//    	// 10000(万)
+//    	value = value%unity;
+//    	var unitw = 10000;
+//    	var wv = salaryCnUnit(value, unitw);
+    	// 1000(千)
+//    	value = value%unitw;
+    	var unitq = 1000;
+    	var qv = salaryCnUnit(value, unitq);
+//    	// 100(百)
+//    	value = value%unitq;
+//    	var unitb = 100;
+//    	var bv = salaryCnUnit(value, unitb);
+//    	
+//    	// 10(十)
+//    	value = value%unitb;
+//    	var units = 10;
+//    	var sv = salaryCnUnit(value, units);
+//    	
+//    	// 1(个)
+//    	value = value%units;
+//    	var unitg = 1;
+//    	var gv = salaryCnUnit(value, unitg);
+    	
+    	var result = "";
+//    	if (yv > 0) {
+//    		result += yv + "亿";
+//    	}
+//    	if (wv > 0) {
+//    		result += wv + "万"; 
+//    	}
+    	if (qv > 0) {
+    		result += qv + "k"; 
+    	}
+//    	if (bv > 0) {
+//    		result += bv + "百"; 
+//    	}
+//    	if (sv > 0) {
+//    		result += sv + "十"; 
+//    	}
+//    	if (gv > 0) {
+//    		result += gv; 
+//    	}
+    	return result;
+    }
+    
+    salaryCnUnit = function(value, unit){
+    	if (value == null || value == undefined) {
+    		return 0;
+    	}
+    	if (value >= unit) {
+    		return value/unit;
+    	}
+    	return 0;
+    }
+    
+    return function(x) {
+        return salaryCn(x);
+    };
+});
 // 初期焕肤模块
 $(document).ready(function(){
     /* --------------------------------------------------------
@@ -273,4 +273,72 @@ $(document).ready(function(){
 		$('body').attr('id', skin);
 		$('#changeSkin').modal('hide');
     });
+});
+
+//金额处理
+app.filter('myFormatSalary', function() {
+	salaryCn = function(value){
+    	//var value = $scope.applicant.salary;
+    	// 1000000000(亿)
+//    	var unity = 100000000;
+//    	var yv = salaryCnUnit(value, unity);
+    	
+//    	// 10000(万)
+//    	value = value%unity;
+//    	var unitw = 10000;
+//    	var wv = salaryCnUnit(value, unitw);
+    	// 1000(千)
+//    	value = value%unitw;
+    	var unitq = 1000;
+    	var qv = salaryCnUnit(value, unitq);
+//    	// 100(百)
+//    	value = value%unitq;
+//    	var unitb = 100;
+//    	var bv = salaryCnUnit(value, unitb);
+//    	
+//    	// 10(十)
+//    	value = value%unitb;
+//    	var units = 10;
+//    	var sv = salaryCnUnit(value, units);
+//    	
+//    	// 1(个)
+//    	value = value%units;
+//    	var unitg = 1;
+//    	var gv = salaryCnUnit(value, unitg);
+    	
+    	var result = "";
+//    	if (yv > 0) {
+//    		result += yv + "亿";
+//    	}
+//    	if (wv > 0) {
+//    		result += wv + "万"; 
+//    	}
+    	if (qv > 0) {
+    		result += qv + "k"; 
+    	}
+//    	if (bv > 0) {
+//    		result += bv + "百"; 
+//    	}
+//    	if (sv > 0) {
+//    		result += sv + "十"; 
+//    	}
+//    	if (gv > 0) {
+//    		result += gv; 
+//    	}
+    	return result;
+    }
+    
+    salaryCnUnit = function(value, unit){
+    	if (value == null || value == undefined) {
+    		return 0;
+    	}
+    	if (value >= unit) {
+    		return value/unit;
+    	}
+    	return 0;
+    }
+    
+    return function(x) {
+        return salaryCn(x);
+    };
 });

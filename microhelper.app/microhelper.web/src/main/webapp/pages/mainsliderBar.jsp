@@ -126,11 +126,17 @@
     </li>
     
     <li class="dropdown">
-        <a class="glyphicon glyphicon-wrench">
-            <span class="menu-item">系统管理</span>
+        <a class="sa-side-set" href="#">
+            <span class="menu-item">系统</span>
         </a>
         <ul class="list-unstyled menu-item">
-            <li><a href="#/taglibList"><span class="icon"style="font-size:18px;">&#61821;</span>&nbsp;&nbsp;标签库</a></li>
+            <li><a href="#/deptList"><span class="icon"style="font-size:18px;">&#61875;</span>&nbsp;&nbsp;组织</a></li>
+            <li><a href="#/taglibList"><span class="icon"style="font-size:18px;">&#61887;</span>&nbsp;&nbsp;角色</a></li>
+            <li><a href="#/taglibList"><span class="icon"style="font-size:18px;">&#61844;</span>&nbsp;&nbsp;用户</a></li>
+            <li><a href="#/taglibList"><span class="icon"style="font-size:18px;">&#61769;</span>&nbsp;&nbsp;页面</a></li>
+            <li><a href="#/taglibList"><span class="icon"style="font-size:18px;">&#61792;</span>&nbsp;&nbsp;权限</a></li>
+        </ul>
+       
         </ul>
     </li>
 </ul>

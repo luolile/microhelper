@@ -20,22 +20,27 @@
         <header id="header" class="media">
             <jsp:directive.include file="mainHeader.jsp"/>
         </header>
-        
         <div class="clearfix"></div>
-        
         <section id="main" class="p-relative" role="main">
-            
             <!-- Sidebar -->
             <aside id="sidebar">
                 <jsp:directive.include file="mainsliderBar.jsp"/>
             </aside>
-        
             <!-- Content -->
             <section id="content" class="container">
-		        <div ng-view></div>
+                <div class="container" ng-controller="deptController">
+                <!-- Breadcrumb -->
+	                 <ol class="breadcrumb hidden-xs">
+	                     <li><a href="#">*</a></li>
+	                     <li><a href="#">*</a></li>
+	                     <li class="active">首页{{main}}</li>
+	                 </ol>
+	                 <h4 class="page-title">组织一览</h4>
+                </div>
+                <div ng-view></div>
                 <jsp:directive.include file="mainAlert.jsp"/>
-		        <jsp:directive.include file="mainChat.jsp"/>
-		    </section>
+                <jsp:directive.include file="mainChat.jsp"/>
+            </section>
     </section>
 </body>
 </html>

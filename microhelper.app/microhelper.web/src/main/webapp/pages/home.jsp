@@ -349,7 +349,7 @@
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-        <div ng-view></div>
+        <div ng-view="main" class="ng-scope"></div>
     </div>
     <!-- /.content-wrapper -->
     <footer class="main-footer">

@@ -28,6 +28,7 @@
 }
 
 .sa-side-home { background-image: url(../img/icon/home.png); }
+.sa-side-set { background-image: url(../img/icon/set.png); }
 .sa-side-typography { background-image: url(../img/icon/typography.png); }
 .sa-side-widget { background-image: url(../img/icon/widgets.png); }
 .sa-side-table { background-image: url(../img/icon/table.png); }
@@ -121,6 +122,7 @@ only screen and (                min-resolution: 1.25dppx) {
     .sa-side-typography, .sa-side-widget, .sa-side-table, .sa-side-ui, .sa-side-folder { background-size: 23px 21px; }
 
     .sa-side-home { background-image: url(../img/icon/home@2x.png); background-size: 25px 25px; }
+    .sa-side-set { background-image: url(../img/icon/set@2x.png); background-size: 25px 25px; }
     .sa-side-typography { background-image: url(../img/icon/typography@2x.png); }
     .sa-side-widget { background-image: url(../img/icon/widgets@2x.png); }
     .sa-side-table { background-image: url(../img/icon/table@2x.png); }
@@ -176,5 +178,6 @@ only screen and (                min-resolution: 1.25dppx) {
     #menu-toggle { background-image: url(../img/icon/menu@2x.png); background-size: 18px 13px; }
     .main-search { background-image: url(../img/icon/search@2x.png); background-size: 25px 25px; }
     .tile-config > .tile-menu { background-image: url(../img/icon/tile-actions@2x.png); background-size: 13px 3px; }
-    .message-search:not(:focus) { background-image: url(../img/icon/search@2x.png); background-size: 25px 25px; }
+    /* .message-search:not(:focus) { background-image: url(../img/icon/search@2x.png); background-size: 25px 25px;background-repeat: no-repeat; } */
+    
 }

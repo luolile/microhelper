@@ -10,6 +10,6 @@ package com.microhelper.common.util;
 public interface Constant {
    
     /** 已删除FLG */
-    public final static String DELETE_FLG = "0";
+    public final static Integer DELETE_FLG_TRUE = 1;
     
 }
